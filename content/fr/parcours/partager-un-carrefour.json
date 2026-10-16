@@ -1,0 +1,93 @@
+{
+  "title": "Partager un carrefour",
+  "description": "Quatre situations du quotidien autour d’un carrefour en ville, pour tester ses réflexes, quel que soit son mode de déplacement.",
+  "slug": "partager-un-carrefour",
+  "locale": "fr",
+  "translationKey": "parcours-carrefour",
+  "draft": false,
+  "intro": "Contenu de démonstration. Un carrefour en ville, un jour de semaine : piétons, vélos, voitures et trottinettes s’y croisent. Pour chaque situation, choisissez la réaction qui vous semble la plus utile, puis découvrez l’explication.",
+  "questions": [
+    {
+      "id": "portiere",
+      "prompt": "Vous êtes garé le long du trottoir et vous voulez sortir de votre voiture. Que faites-vous avant d’ouvrir la portière ?",
+      "options": [
+        {
+          "id": "a",
+          "label": "J’ouvre rapidement pour ne pas gêner la circulation."
+        },
+        {
+          "id": "b",
+          "label": "Je regarde dans le rétroviseur puis par-dessus mon épaule, et j’ouvre progressivement."
+        },
+        { "id": "c", "label": "J’allume mes feux de détresse et j’ouvre." }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Un cycliste ou un utilisateur de trottinette peut arriver dans votre angle mort. Un double regard et une ouverture progressive lui laissent le temps de réagir, et vous évitent une belle frayeur."
+    },
+    {
+      "id": "depassement",
+      "prompt": "En ville, vous suivez un cycliste dans une rue étroite. Il n’y a pas la place de le dépasser en laissant au moins un mètre. Que faites-vous ?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Je patiente derrière lui quelques secondes, jusqu’à pouvoir dépasser avec la marge nécessaire."
+        },
+        { "id": "b", "label": "Je klaxonne pour qu’il se range." },
+        { "id": "c", "label": "Je le dépasse en serrant, la rue est courte." }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Le Code de la route impose de ne pas s’approcher latéralement d’un cycliste à moins d’un mètre en agglomération (article R414-4). Attendre quelques secondes coûte peu et évite une situation tendue pour vous deux."
+    },
+    {
+      "id": "regard",
+      "prompt": "À pied, vous vous apprêtez à traverser au passage piéton. Une voiture approche. Quel est le geste le plus utile ?",
+      "options": [
+        { "id": "a", "label": "Traverser sans regarder : j’ai la priorité." },
+        { "id": "b", "label": "Attendre que la rue soit totalement vide." },
+        {
+          "id": "c",
+          "label": "Chercher le regard du conducteur et montrer clairement mon intention de traverser."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Rendre son intention lisible et vérifier qu’on a été vu, c’est la meilleure façon de traverser sereinement. Un échange de regards règle beaucoup de situations ambiguës."
+    },
+    {
+      "id": "trottinette",
+      "prompt": "À trottinette, vous arrivez à un carrefour où un camion s’apprête à tourner à droite. Où vous placez-vous ?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Je me glisse à sa droite pour passer avant lui."
+        },
+        {
+          "id": "b",
+          "label": "Je reste en retrait, bien visible, et j’attends qu’il ait tourné."
+        },
+        {
+          "id": "c",
+          "label": "Je me colle à l’arrière du camion pour profiter de l’aspiration."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le long d’un véhicule de grande taille, les angles morts sont étendus : le conducteur peut ne pas vous voir du tout. Rester en retrait et visible, c’est garder le contrôle de la situation."
+    }
+  ],
+  "results": [
+    {
+      "minScore": 0,
+      "title": "Bonne occasion de revoir quelques réflexes",
+      "message": "Pas de panique : ces situations ne sont pas évidentes. Les explications ci-dessus sont un bon point de départ, et le concept d’anticipation peut vous aider."
+    },
+    {
+      "minScore": 2,
+      "title": "De bons réflexes",
+      "message": "Vous avez déjà de bons repères. Quelques ajustements et ces carrefours deviendront encore plus sereins."
+    },
+    {
+      "minScore": 4,
+      "title": "Fin connaisseur du carrefour",
+      "message": "Bravo ! Vous lisez la rue comme un livre ouvert. Pensez à partager ces réflexes autour de vous."
+    }
+  ]
+}
